@@ -4,9 +4,9 @@ import { copy } from '@ember/object/internals'
 export default Object.create({
 
   _records: [
-    { title: "El Aleph" },
-    { title: "2666" },
-    { title: "The Black Swan" }
+    { title: "Black Panther" },
+    { title: "Tomb Raider" },
+    { title: "Hostiles" }
   ],
 
   movies() {
