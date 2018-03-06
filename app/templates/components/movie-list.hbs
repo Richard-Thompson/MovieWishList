@@ -1,0 +1,10 @@
+<ul class='movie-list'>
+{{#each movies as |movie|}}
+<div class='movie-wrapper'>
+  <li class='movie'>{{ movie.title }}</li>
+  <button class='cross'{{action removeMovie movie}}>
+      {{fa-icon "times" size=3}}
+  </button>
+  </div>
+{{/each}}
+</ul>

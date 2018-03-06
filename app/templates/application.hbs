@@ -1,5 +1,6 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class='main-container'>
+    {{title-section}}
+    {{movie-list movies=model removeMovie=(route-action 'removeMovie')}} 
+    {{add-movie addMovie=(route-action 'addMovie')}}
+    {{outlet}}
+</div>

@@ -1,0 +1,57 @@
+@import "bootstrap";
+$color: #141414;
+$border-radius: 5px;
+$font-size:2rem;
+
+.title-container{
+    padding:20px;
+    background-color: $color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color:white;
+    }
+}
+
+.movie-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    padding:0;
+    .movie-wrapper{
+        display: flex;
+        justify-content: center;
+        .movie{
+            width: 50%;
+            margin:20px;
+            border: 5px solid $color;
+            border-radius: $border-radius;
+            font-size: $font-size;
+            height:50px;
+            padding-left:10px;
+            line-height: 40px;
+        }
+        .cross{
+            width:5%;
+            display:flex;
+            align-items: center;
+            border:none;
+            background-color: none;
+        }
+
+    }
+}
+
+.input{
+    display: block;
+    height:50px;
+    width:55%;
+    margin:0 auto;
+    font-size: $font-size;
+    padding-left:10px;
+    border:2px solid $color;
+    border-radius: $border-radius;
+}
