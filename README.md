@@ -15,7 +15,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone https://github.com/Richard-Thompson/MovieWishList.git` this repository
-* `cd ToDo-app`
+* `cd MovieWishList`
 * `npm install`
 
 ## Running / Development
