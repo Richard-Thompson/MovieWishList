@@ -1,6 +1,7 @@
-import Ember from 'ember';
+import Object from '@ember/object';
+import { copy } from '@ember/object/internals'
 
-export default Ember.Object.create({
+export default Object.create({
 
   _records: [
     { title: "El Aleph" },
@@ -9,7 +10,7 @@ export default Ember.Object.create({
   ],
 
   movies() {
-    return Ember.copy(this._records);
+    return copy(this._records);
   },
 
   addMovie(movie) {
